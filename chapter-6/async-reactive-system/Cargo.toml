@@ -1,0 +1,9 @@
+[package]
+name = "async-reactive-system"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+tokio = { version = "1.26.0", features = ["full"] }
+clearscreen = "2.0.1"
+device_query = "1.1.3"
