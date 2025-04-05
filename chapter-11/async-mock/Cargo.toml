@@ -1,0 +1,10 @@
+[package]
+name = "async-mock"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+tokio = { version = "1.34.0", features = ["full"] }
+
+[dev-dependencies]
+mockall = "0.11.4"
